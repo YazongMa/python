@@ -2,6 +2,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
  
+
 str = 'Hello World!'
 test = 'python' 
 print 'str         ' + str           
