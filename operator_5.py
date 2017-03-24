@@ -2,31 +2,37 @@
 # -*- coding: UTF-8 -*-
 
 a = 21
-b = 10
+b = 2
 c = 0
 
 c = a + b
-print "1 - c 的值为：", c
+print "a:", a, "b:", b, "=>a+b 的值为：", c
 
 c = a - b
-print "2 - c 的值为：", c 
+print "a:", a, "b:", b, "=>a-b 的值为：", c
 
 c = a * b
-print "3 - c 的值为：", c 
+print "a:", a, "b:", b, "=>a*b 的值为：", c
 
 c = a / b
-print "4 - c 的值为：", c 
+print "a:", a, "b:", b, "=>a/b 的值为：", c
 
 c = a % b
-print "5 - c 的值为：", c
+print "a:", a, "b:", b, "=>a%b 的值为：", c
 
 # 修改变量 a 、b 、c
-a = 2
+a = 20
 b = 3
 c = a**b 
-print "6 - c 的值为：", c
+print "a:", a, "b:", b, "=>a**b 的值为：", c
 
 a = 11
 b = 5
 c = a//b 
-print "7 - c 的值为：", c
+print "a:", a, "b:", b, "=>a//b 的值为：", c
+
+
+x = a and b
+print "a:", a, "b:", b, "=>a and b 的值为：", x
+x = a or b
+print "a:", a, "b:", b, "=>a or b 的值为：", x
