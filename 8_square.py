@@ -28,4 +28,3 @@ def printTriangle(cols) :
 cols = int(raw_input())
 printSquare(cols)
 printTriangle(cols)
-
