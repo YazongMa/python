@@ -1,6 +1,11 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
+def varPrint(var) :
+    print var
+    return
+
+
 #两个必备参数
 def testPrint(name, age) :
     print 'name is', name, 'and age is', age
@@ -18,8 +23,8 @@ def testPrint1(*arg) :
 
 #匿名函数
 add = lambda arg1,arg2:arg1+arg2;
-testPrint('Lol1', 10)
-testPrint('Lol2')
-testPrint(name='Lol3',age=23)
-testPrint1(1,2,3,4,5,6)
-print 'add(10,20):',add(10,20)
+#testPrint('Lol1', 10)
+#testPrint('Lol2')
+#testPrint(name='Lol3',age=23)
+#testPrint1(1,2,3,4,5,6)
+#print 'add(10,20):',add(10,20)
